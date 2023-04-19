@@ -145,11 +145,7 @@ const list = defineComponent({
               {t('datasource.create_datasource')}
             </NButton>
             <NSpace justify='end' wrap={false}>
-              <Search
-                v-model:value={this.searchVal}
-                placeholder={t('datasource.search_input_tips')}
-                onSearch={onUpdatedList}
-              />
+              <Search v-model:value={this.searchVal} onSearch={onUpdatedList} />
               <NButton type='primary' size='small' onClick={onUpdatedList}>
                 <NIcon>
                   <SearchOutlined />

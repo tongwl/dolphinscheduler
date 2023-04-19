@@ -150,7 +150,7 @@ export default {
     namespace: '命名空间',
     revoke_auth: '撤销权限',
     grant_read: '授予读权限',
-    grant_all:'授予所有权限',
+    grant_all: '授予所有权限',
     authorize_project: '项目授权',
     authorize_resource: '资源授权',
     authorize_namespace: '命名空间授权',
@@ -191,7 +191,6 @@ export default {
     disable: '停用'
   },
   alarm_instance: {
-    search_input_tips: '请输入关键字',
     alarm_instance_manage: '告警实例管理',
     alarm_instance_name: '告警实例名称',
     alarm_instance_name_tips: '请输入告警实例名称',
